@@ -3,7 +3,7 @@
 
 ## Password Authentication with Shared Secret (PASS) Example
 
-**Register:
+**Register:**
 
 User: Alexa open password checker to register new account for Ezzy Elliott
 
@@ -28,20 +28,37 @@ User: Yes
 Alexa: When you ask me to log in you will be asked 4 random questions.
 
 Alexa: The answer to first question corresponds to the first letter of password, 
+
 Alexa: the second question to second letter of pasword and so on ...
+
 Alexa: The answer to each question is an animal,  
+
 Alexa: that is LATER in alphabet, if question mentions BIG animal, 
+
 Alexa: and EARLIER in alphabet if it mentions SMALL animal, 
+
 Alexa: of CORRESPONDING password letter.
+
 Alexa: This is our shared secret. Is that clear?
+
 User: Yes
+
 Alexa: So lets try it out.
+
 Alexa: Question 1, what animal can a big bear fight with?
+
 User: A Monkey
+
 Alexa: Question 2, what animal can a small elephant fight with?
+
 User: A Mouse
+
 Alexa: Question 3, what animal can a big lion fight with?
+
 User: A Tiger
+
 Alexa: Question 4, what animal can a small mouse fight with?
+
 User: A Dog
+
 Alexa: Well done , you are logged in.
