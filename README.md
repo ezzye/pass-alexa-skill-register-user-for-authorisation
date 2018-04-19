@@ -6,9 +6,13 @@
 Register:
 
 User: Alexa open password checker to register new account for Ezzy Elliott
+
 Alexa: Are you alone?
+
 User: No
+
 Alexa: Please move to some where you cannot be over-heard so that you can register your password
+
 Alexa: Are you alone?
 User: Yes
 Alexa: I will give you a random easy to spell word to use as your voice password.  Keep this secret. Do not say it out loud.
