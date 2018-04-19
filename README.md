@@ -3,7 +3,7 @@
 
 ## Password Authentication with Shared Secret (PASS) Example
 
-Register:
+**Register:
 
 User: Alexa open password checker to register new account for Ezzy Elliott
 
@@ -14,12 +14,19 @@ User: No
 Alexa: Please move to some where you cannot be over-heard so that you can register your password
 
 Alexa: Are you alone?
+
 User: Yes
+
 Alexa: I will give you a random easy to spell word to use as your voice password.  Keep this secret. Do not say it out loud.
+
 Alexa: Your password is FROG. F, R, O, G; frog.
+
 Alexa: Did you hear that?
+
 User: Yes
+
 Alexa: When you ask me to log in you will be asked 4 random questions.
+
 Alexa: The answer to first question corresponds to the first letter of password, 
 Alexa: the second question to second letter of pasword and so on ...
 Alexa: The answer to each question is an animal,  
