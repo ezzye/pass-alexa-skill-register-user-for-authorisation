@@ -1,0 +1,36 @@
+{
+  "session": {
+    "new": false,
+    "sessionId": "test",
+    "application": {
+      "applicationId": "test"
+    },
+    "attributes": {},
+    "user": {
+      "userId": "testUserId"
+    }
+  },
+  "request": {
+    "type": "LaunchRequest",
+    "requestId": "testRequestId1",
+    "locale": "en-GB",
+    "timestamp": "2017-11-29T09:05:41Z"
+  },
+  "context": {
+    "AudioPlayer": {
+      "playerActivity": "IDLE"
+    },
+    "System": {
+      "application": {
+        "applicationId": "test"
+      },
+      "user": {
+        "userId": "testUserId"
+      },
+      "device": {
+        "supportedInterfaces": {}
+      }
+    }
+  },
+  "version": "1.0"
+}

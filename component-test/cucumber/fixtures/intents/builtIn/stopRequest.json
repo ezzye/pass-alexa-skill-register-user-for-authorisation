@@ -1,0 +1,39 @@
+{
+  "session": {
+    "new" : false,
+    "sessionId" : "test",
+    "application" : {
+      "applicationId" : "testApplicationId"
+    },
+    "user" : {
+      "userId" : "testUserId"
+    }
+  },
+  "request": {
+    "type" : "IntentRequest",
+    "requestId" : "testRequestId2",
+    "timestamp" : "2017-12-04T22:12:20Z",
+    "intent" : {
+      "name" : "AMAZON.StopIntent",
+      "confirmationStatus" : null
+    },
+    "dialogState" : null
+  },
+  "context": {
+    "AudioPlayer": {
+      "playerActivity": "IDLE"
+    },
+    "System": {
+      "application": {
+        "applicationId": "test"
+      },
+      "user": {
+        "userId": "testUserId"
+      },
+      "device": {
+        "supportedInterfaces": {}
+      }
+    }
+  },
+  "version": "1.0"
+}

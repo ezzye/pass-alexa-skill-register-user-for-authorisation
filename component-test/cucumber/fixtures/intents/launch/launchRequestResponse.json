@@ -1,0 +1,35 @@
+{
+  "version": "1.0",
+  "response": {
+    "outputSpeech": {
+      "text": "Hiya from audio box. You can say something like, play radio five live",
+      "type": "PlainText"
+    },
+    "card": {
+      "content": "Hiya from audio box. You can say something like, play radio five live",
+      "title": "Welcome to audio box"
+    },
+    "reprompt": {
+      "outputSpeech": {
+        "text": "Hiya from audio box. You can say something like, play radio five live",
+        "type": "PlainText"
+      }
+    },
+    "speechletResponse": {
+      "outputSpeech": {
+        "text": "Hiya from audio box. You can say something like, play radio five live"
+      },
+      "card": {
+        "content": "Hiya from audio box. You can say something like, play radio five live",
+        "title": "Welcome to audio box"
+      },
+      "reprompt": {
+        "outputSpeech": {
+          "text": "Hiya from audio box. You can say something like, play radio five live"
+        }
+      },
+      "shouldEndSession": false
+    }
+  },
+  "sessionAttributes": {}
+}

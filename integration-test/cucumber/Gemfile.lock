@@ -1,0 +1,83 @@
+GEM
+  remote: https://gems.cloud.bbc.co.uk/
+  remote: https://rubygems.org/
+  specs:
+    activesupport (5.1.4)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (~> 0.7)
+      minitest (~> 5.1)
+      tzinfo (~> 1.1)
+    awesome_print (1.8.0)
+    builder (3.2.3)
+    coderay (1.1.2)
+    concurrent-ruby (1.0.5)
+    cucumber (2.99.0)
+      builder (>= 2.1.2)
+      cucumber-core (~> 1.5.0)
+      cucumber-wire (~> 0.0.1)
+      diff-lcs (>= 1.1.3)
+      gherkin (~> 4.0)
+      multi_json (>= 1.7.5, < 2.0)
+      multi_test (>= 0.1.2)
+    cucumber-core (1.5.0)
+      gherkin (~> 4.0)
+    cucumber-wire (0.0.1)
+    diff-lcs (1.3)
+    gherkin (4.1.3)
+    i18n (0.9.1)
+      concurrent-ruby (~> 1.0)
+    java-properties (0.2.0)
+    method_source (0.9.0)
+    mini_portile2 (2.3.0)
+    minitest (5.11.1)
+    mod_av_cucumber (0.73)
+      cucumber (~> 2)
+      java-properties
+      nokogiri
+      rspec-expectations
+      tools-messaging
+      under-test
+    multi_json (1.12.2)
+    multi_test (0.1.2)
+    nokogiri (1.8.1)
+      mini_portile2 (~> 2.3.0)
+    process-helper (1.2.0)
+    pry (0.11.3)
+      coderay (~> 1.1.0)
+      method_source (~> 0.9.0)
+    roxml (4.0.0)
+      activesupport (>= 4.0)
+      nokogiri (>= 1.3.3)
+    rspec (3.6.0)
+      rspec-core (~> 3.6.0)
+      rspec-expectations (~> 3.6.0)
+      rspec-mocks (~> 3.6.0)
+    rspec-core (3.6.0)
+      rspec-support (~> 3.6.0)
+    rspec-expectations (3.6.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.6.0)
+    rspec-mocks (3.6.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.6.0)
+    rspec-support (3.6.0)
+    thread_safe (0.3.6)
+    tools-messaging (1)
+      roxml
+    tzinfo (1.2.4)
+      thread_safe (~> 0.1)
+    under-test (10.8.5)
+      process-helper (~> 1.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  awesome_print!
+  cucumber!
+  mod_av_cucumber!
+  pry!
+  rspec!
+
+BUNDLED WITH
+   1.16.0

@@ -1,0 +1,11 @@
+source 'https://gems.cloud.bbc.co.uk' do
+  gem 'cucumber'
+  gem 'rspec'
+end
+
+source 'https://rubygems.org' do
+  gem 'awesome_print'
+  group :local do
+    gem 'pry'
+  end
+end

@@ -1,0 +1,44 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-GB": {
+          "summary": "Register voice password for user name.",
+          "examplePhrases": [
+            "Alexa ask password checker to register user name John Smith",
+            "Alexa open password checker",
+            "Alexa open password checker and register user name John Smith"
+          ],
+          "keywords": [
+            "voice",
+            "password",
+            "authentication",
+            "shared",
+            "secret"
+          ],
+          "name": "Password Checker",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/73d7/7a37da0cc2ba414bb420c6f5a30118e0/APP_ICON?versionId=vJNr981TRWinmFsqb0wUiEk3UDN.PSCT&AWSAccessKeyId=AKIAI3X6PUXD7CU5F5BQ&Expires=1524478957&Signature=xXMP2Pdmi%2FkncZiPHHkUeKMdYTU%3D",
+          "description": "Register a password for shared secret voice authentication for a user name.",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/c268/8fada32edf1f48ac9d25ea84fc2a4ff6/APP_ICON_LARGE?versionId=W3hh9PjAaAN7ArQCIwKl4a98_vM.rv0l&AWSAccessKeyId=AKIAI3X6PUXD7CU5F5BQ&Expires=1524478957&Signature=LTZLo4VM1PhnA7CF%2FtmOIdzmHWY%3D"
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "See https://github.com/ezzye/pass-alexa-skill-register-user-for-authorisation",
+      "category": "BUSINESS_AND_FINANCE",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "interfaces": []
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "isExportCompliant": true,
+      "containsAds": false,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}

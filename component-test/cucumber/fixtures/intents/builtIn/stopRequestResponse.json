@@ -1,0 +1,13 @@
+{
+  "shouldEndSession" : true,
+  "response": {
+    "outputSpeech": {
+      "type": "PlainText",
+      "id": null,
+      "text": "OK I'm stopping..... Goodbye"
+    }
+  },
+  "card" : null,
+  "directives" : null,
+  "reprompt" : null
+}
