@@ -1,0 +1,298 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "password checker",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "Register",
+          "slots": [
+            {
+              "name": "AccountName",
+              "type": "AMAZON.SearchQuery",
+              "samples": [
+                "user name {AccountName}",
+                "register {AccountName}",
+                "{AccountName}"
+              ]
+            }
+          ],
+          "samples": [
+            "user name {AccountName}",
+            "set up new user name {AccountName}",
+            "register user name {AccountName}"
+          ]
+        },
+        {
+          "name": "Animal",
+          "slots": [
+            {
+              "name": "Animals",
+              "type": "Animal",
+              "samples": [
+                "an {Animals}",
+                "a {Animals}",
+                "{Animals}"
+              ]
+            }
+          ],
+          "samples": [
+            "Its a {Animals}",
+            "Is the animal a {Animals}",
+            "a {Animals}"
+          ]
+        },
+        {
+          "name": "AMAZON.NextIntent",
+          "samples": [
+            "Any more",
+            "What is after question three",
+            "What is after question two",
+            "What is after question one",
+            "Next",
+            "What else",
+            "What is next question"
+          ]
+        },
+        {
+          "name": "AMAZON.PreviousIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.RepeatIntent",
+          "samples": [
+            "Say again",
+            "repeat that",
+            "What",
+            "Aye",
+            "What I didn't catch that",
+            "Can you repeat that",
+            "Can you just repeat what you said"
+          ]
+        },
+        {
+          "name": "AMAZON.StartOverIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.YesIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NoIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.PauseIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ResumeIntent",
+          "samples": []
+        },
+        {
+          "name": "ImplicitNext",
+          "samples": [
+            "Okie Dokie",
+            "Yup",
+            "alright",
+            "Okay"
+          ]
+        },
+        {
+          "name": "GroundingBehaviour",
+          "samples": [
+            "What animal can",
+            "The shared secret given in questions tells you if starting letter is before or after",
+            "That starts with a letter that is either before or after the relevant password letter",
+            "The answer to each question is an animal",
+            "The second question corresponds to second letter of pasword",
+            "The first question corresponds to the first letter of password"
+          ]
+        },
+        {
+          "name": "Clarification",
+          "slots": [
+            {
+              "name": "Password",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "samples": [
+            "the password is {Password}"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "Lion"
+              }
+            },
+            {
+              "name": {
+                "value": "Frog"
+              }
+            }
+          ],
+          "name": "Animal"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "Coder C"
+              }
+            },
+            {
+              "name": {
+                "value": "Mary Jones"
+              }
+            },
+            {
+              "name": {
+                "value": "Jon Smith"
+              }
+            }
+          ],
+          "name": "AMAZON.SearchQuery"
+        }
+      ]
+    },
+    "dialog": {
+      "intents": [
+        {
+          "name": "Register",
+          "confirmationRequired": true,
+          "prompts": {
+            "confirmation": "Confirm.Intent.737079110897"
+          },
+          "slots": [
+            {
+              "name": "AccountName",
+              "type": "AMAZON.SearchQuery",
+              "elicitationRequired": true,
+              "confirmationRequired": true,
+              "prompts": {
+                "elicitation": "Elicit.Slot.737079110897.184007063632",
+                "confirmation": "Confirm.Slot.737079110897.184007063632"
+              }
+            }
+          ]
+        },
+        {
+          "name": "Animal",
+          "confirmationRequired": false,
+          "slots": [
+            {
+              "name": "Animals",
+              "type": "Animal",
+              "elicitationRequired": true,
+              "confirmationRequired": true,
+              "prompts": {
+                "elicitation": "Elicit.Slot.593023966073.419825173211",
+                "confirmation": "Confirm.Slot.1218487029028.976766160554"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "prompts": [
+      {
+        "id": "Elicit.Slot.737079110897.184007063632",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "What is user name to register?"
+          }
+        ]
+      },
+      {
+        "id": "Confirm.Slot.737079110897.184007063632",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "Registering user name {AccountName}"
+          }
+        ]
+      },
+      {
+        "id": "Confirm.Intent.737079110897",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "Are you setting up an account for {AccountName}"
+          }
+        ]
+      },
+      {
+        "id": "Elicit.Slot.158922992588.94167861109",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "OK an animal"
+          }
+        ]
+      },
+      {
+        "id": "Elicit.Slot.593023966073.419825173211",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "What animal?"
+          }
+        ]
+      },
+      {
+        "id": "Confirm.Intent.730610151225",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "ODid you say log {AccountName} in?"
+          }
+        ]
+      },
+      {
+        "id": "Elicit.Slot.730610151225.34262845222",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "What is your account name?"
+          }
+        ]
+      },
+      {
+        "id": "Confirm.Slot.730610151225.34262845222",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "So is account name {AccountName} ?"
+          }
+        ]
+      },
+      {
+        "id": "Confirm.Slot.1218487029028.976766160554",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "Did you say {Animals}"
+          }
+        ]
+      }
+    ]
+  }
+}

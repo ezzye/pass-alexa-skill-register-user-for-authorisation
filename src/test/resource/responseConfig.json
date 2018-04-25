@@ -1,0 +1,14 @@
+{
+  "Welcome": [
+    "welcome to password checker you can register a new user name by saying register user name and then your username",
+    "hi this is password checker say register then the account name for example, register Fred Blogs"
+  ],
+  "Alone": [
+    "are you alone now",
+    "can anyone overhear you"
+  ],
+  "Move": [
+    "Please move to some where you cannot be over-heard so that you can register your password",
+    "Setting up password needs to be in private please move where you cannot be overheard"
+  ]
+}
